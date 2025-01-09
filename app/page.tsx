@@ -368,7 +368,7 @@ const TomikoLanding = () => {
 
   return (
     <div>
-      {sections.map((section, index) => (
+      {sections.map((section) => (
         <section
           key={section.id}
           className={`min-h-screen ${section.backgroundColor} flex items-center justify-center relative`}
