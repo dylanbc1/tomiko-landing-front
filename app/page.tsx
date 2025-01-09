@@ -121,6 +121,7 @@ const TomikoLanding = () => {
     const handleScroll = () => {
       const position = window.scrollY;
       const windowHeight = window.innerHeight;
+      console.log('Sección activa:', activeSection);
       const section = Math.floor(position / windowHeight);
       setActiveSection(section);
     };
